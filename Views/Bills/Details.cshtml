@@ -1,0 +1,30 @@
+﻿@model TelecomApp.Models.Bill
+
+@{
+    ViewData["Title"] = "Details";
+    var userType = ViewData["UserType"]?.ToString();
+    var userId = ViewData["UserId"]?.ToString();
+}
+
+<h2>Bill Details</h2>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Costs)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Costs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Phone.PhoneNumber)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a href="javascript:history.back()" class="btn btn-secondary">Back</a>
+</div>

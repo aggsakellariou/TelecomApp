@@ -1,0 +1,59 @@
+﻿@model IEnumerable<TelecomApp.Models.UserClient>
+
+@{
+    ViewData["Title"] = "Index";
+    var userType = ViewData["UserType"]?.ToString();
+    var userId = ViewData["UserId"]?.ToString();
+}
+
+<h1>Clients</h1>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.User.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone.ProgramId)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone.Program.ProgramName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-controller="Phones" asp-route-id="@item.Phone.PhoneId" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-dark">Change Program</a>
+                <a asp-action="Create" asp-controller="Bills" asp-route-phoneId="@item.Phone.PhoneId" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-secondary">Add Bill</a>
+                <a asp-action="IndexSeller" asp-controller="Calls" asp-route-clinetId="@item.User.UserId" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-dark">View Calls</a>
+                <a asp-action="Details" asp-route-id="@item.Client.ClientId" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-secondary">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Create" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-dark">Create Client</a>
+</p>

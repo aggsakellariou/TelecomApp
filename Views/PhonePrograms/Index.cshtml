@@ -1,0 +1,50 @@
+﻿@model IEnumerable<TelecomApp.Models.PhoneProgram>
+
+@{
+    ViewData["Title"] = "Index";
+    var userType = ViewData["UserType"]?.ToString();
+}
+
+<h1>Programs</h1>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ProgramName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Benefits)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Charge)
+            </th>
+            <th>
+				Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProgramName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Benefits)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Charge)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ProgramId" asp-route-userType="@userType" class="btn btn-dark">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.ProgramId" asp-route-userType="@userType" class="btn btn-secondary">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Create" asp-route-userType="@userType" class="btn btn-dark">Create Program</a>
+</p>

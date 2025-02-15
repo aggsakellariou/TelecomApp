@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|c:\\users\\aggel\\onedrive - unipi.gr\\cs\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03C3\u03C5\u03B3\u03C7\u03C1\u03BF\u03BD\u03B1 \u03B8\u03B5\u03BC\u03B1\u03C4\u03B1 \u03C4\u03B5\u03C7\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03B1\u03C3 \u03BB\u03BF\u03B3\u03B9\u03C3\u03BC\u03B9\u03BA\u03BF\u03C5 (\u03C4\u03BB\u03B5\u03C3)\\project3\\telecomapp\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|solutionrelative:views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|c:\\users\\aggel\\onedrive - unipi.gr\\cs\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03C3\u03C5\u03B3\u03C7\u03C1\u03BF\u03BD\u03B1 \u03B8\u03B5\u03BC\u03B1\u03C4\u03B1 \u03C4\u03B5\u03C7\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03B1\u03C3 \u03BB\u03BF\u03B3\u03B9\u03C3\u03BC\u03B9\u03BA\u03BF\u03C5 (\u03C4\u03BB\u03B5\u03C3)\\project3\\telecomapp\\views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|solutionrelative:views\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|c:\\users\\aggel\\onedrive - unipi.gr\\cs\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03C3\u03C5\u03B3\u03C7\u03C1\u03BF\u03BD\u03B1 \u03B8\u03B5\u03BC\u03B1\u03C4\u03B1 \u03C4\u03B5\u03C7\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03B1\u03C3 \u03BB\u03BF\u03B3\u03B9\u03C3\u03BC\u03B9\u03BA\u03BF\u03C5 (\u03C4\u03BB\u03B5\u03C3)\\project3\\telecomapp\\views\\clients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|solutionrelative:views\\clients\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|c:\\users\\aggel\\onedrive - unipi.gr\\cs\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03C3\u03C5\u03B3\u03C7\u03C1\u03BF\u03BD\u03B1 \u03B8\u03B5\u03BC\u03B1\u03C4\u03B1 \u03C4\u03B5\u03C7\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03B1\u03C3 \u03BB\u03BF\u03B3\u03B9\u03C3\u03BC\u03B9\u03BA\u03BF\u03C5 (\u03C4\u03BB\u03B5\u03C3)\\project3\\telecomapp\\views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|solutionrelative:views\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|c:\\users\\aggel\\onedrive - unipi.gr\\cs\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03C3\u03C5\u03B3\u03C7\u03C1\u03BF\u03BD\u03B1 \u03B8\u03B5\u03BC\u03B1\u03C4\u03B1 \u03C4\u03B5\u03C7\u03BD\u03BF\u03BB\u03BF\u03B3\u03B9\u03B1\u03C3 \u03BB\u03BF\u03B3\u03B9\u03C3\u03BC\u03B9\u03BA\u03BF\u03C5 (\u03C4\u03BB\u03B5\u03C3)\\project3\\telecomapp\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54F9FC57-99E3-4736-9A76-8EBDE31F13D5}|TelecomApp.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T10:51:49.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:52:13.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T10:51:45.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Details.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T10:51:48.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aggel\\OneDrive - unipi.gr\\CS\\2024-2025\\7\u03BF \u03B5\u03BE\u03AC\u03BC\u03B7\u03BD\u03BF\\\u03A3\u03A5\u0393\u03A7\u03A1\u039F\u039D\u0391 \u0398\u0395\u039C\u0391\u03A4\u0391 \u03A4\u0395\u03A7\u039D\u039F\u039B\u039F\u0393\u0399\u0391\u03A3 \u039B\u039F\u0393\u0399\u03A3\u039C\u0399\u039A\u039F\u03A5 (\u03A4\u039B\u0395\u03A3)\\project3\\TelecomApp\\Views\\Clients\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T10:51:48.801Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

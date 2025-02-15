@@ -1,0 +1,42 @@
+﻿@model TelecomApp.Models.PhoneProgram
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit Phone Program</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProgramId" />
+            <div class="form-group">
+                <label asp-for="ProgramName" class="control-label"></label>
+                <input asp-for="ProgramName" class="form-control" />
+                <span asp-validation-for="ProgramName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Benefits" class="control-label"></label>
+                <input asp-for="Benefits" class="form-control" />
+                <span asp-validation-for="Benefits" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Charge" class="control-label"></label>
+                <input asp-for="Charge" class="form-control" />
+                <span asp-validation-for="Charge" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                <input type="hidden" name="userType" value="@ViewData["UserType"]" />
+
+                <a href="javascript:history.back()" class="btn btn-secondary">Back</a>
+                <input type="submit" value="Save" class="btn btn-dark" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

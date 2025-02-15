@@ -1,0 +1,49 @@
+﻿@model IEnumerable<TelecomApp.Models.Seller>
+
+@{
+    ViewData["Title"] = "Index";
+    var userType = ViewData["UserType"]?.ToString();
+}
+
+<h1>Sellers</h1>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.User.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Username)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Username)
+            </td>
+            <td>
+                <a class="btn btn-dark" asp-action="Details" asp-route-id="@item.SellerId" asp-route-userType="@userType">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<p>
+    <a class="btn btn-dark" asp-action="Create" asp-route-userType="@userType">Create New Seller</a>
+</p>

@@ -1,0 +1,96 @@
+﻿@model TelecomApp.Models.BillCalls
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create Bill</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Bill.PhoneId" class="control-label"></label>
+                <input value="@ViewData["PhoneNumber"]" class="form-control" readonly />
+                <input type="hidden" asp-for="Bill.PhoneId" />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Program Charge</label>
+                <input class="form-control" value="@ViewData["Charge"]" id="programCharge" readonly />
+            </div>
+            <div class="form-group">
+                <label class="control-label">Extra Charges</label>
+                <input class="form-control" id="extraCharges" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Bill.Costs" class="control-label">Total Costs</label>
+                <input asp-for="Bill.Costs" class="form-control" id="totalCosts" readonly />
+                <span asp-validation-for="Bill.Costs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Calls</label>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="callsTableBody">
+                        @for (int i = 0; i < Model.Calls.Count; i++)
+                        {
+                            <tr>
+                                <td>
+                                    <input asp-for="@Model.Calls[i].Description" class="form-control" />
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger" onclick="removeCall(this)">Remove</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-primary" onclick="addCall()">Add Call</button>
+            </div>
+            <div class="form-group mt-3">
+                <input type="hidden" name="userType" value="@ViewData["UserType"]" />
+                <input type="hidden" name="userId" value="@ViewData["UserId"]" />
+
+                <a href="javascript:history.back()" class="btn btn-secondary">Back</a>
+                <input type="submit" value="Create" class="btn btn-dark" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById('extraCharges').addEventListener('input', function () {
+            var programCharge = parseFloat(document.getElementById('programCharge').value) || 0;
+            var extraCharges = parseFloat(this.value) || 0;
+            var totalCosts = programCharge + extraCharges;
+            document.getElementById('totalCosts').value = totalCosts.toFixed(2);
+        });
+
+        function addCall() {
+            var tableBody = document.getElementById('callsTableBody');
+            var rowCount = tableBody.rows.length;
+            var row = tableBody.insertRow(rowCount);
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+
+            cell1.innerHTML = '<input name="Calls[' + rowCount + '].Description" class="form-control" />';
+            cell2.innerHTML = '<button type="button" class="btn btn-danger" onclick="removeCall(this)">Remove</button>';
+        }
+
+        function removeCall(button) {
+            var row = button.parentNode.parentNode;
+            row.parentNode.removeChild(row);
+        }
+    </script>
+}

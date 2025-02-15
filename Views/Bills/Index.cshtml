@@ -1,0 +1,41 @@
+﻿@model IEnumerable<TelecomApp.Models.Bill>
+
+@{
+    ViewData["Title"] = "Index";
+    var userType = ViewData["UserType"]?.ToString();
+    var userId = ViewData["UserId"]?.ToString();
+}
+
+<h1>Bills</h1>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Costs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Costs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone.PhoneNumber)
+            </td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.BillId" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-dark">Pay</a>
+                <a asp-action="Details" asp-route-id="@item.BillId" asp-route-userType="@userType" asp-route-userId="@userId" class="btn btn-secondary">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
